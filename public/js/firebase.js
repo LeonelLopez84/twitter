@@ -1,10 +1,10 @@
-// Initialize Firebase
+ // Initialize Firebase
   var config = {
-    apiKey: "AIzaSyBj-KRJ6f_lihfBjg4-ItcJXp3ZQnbOvMU",
-    authDomain: "blako-b4531.firebaseapp.com",
-    databaseURL: "https://blako-b4531.firebaseio.com",
-    projectId: "blako-b4531",
-    storageBucket: "blako-b4531.appspot.com",
-    messagingSenderId: "1024985583286"
+    apiKey: "AIzaSyBbneOWOf8gD4Xn35VSF1ptb2mKFwFvst4",
+    authDomain: "twitter-49e47.firebaseapp.com",
+    databaseURL: "https://twitter-49e47.firebaseio.com",
+    projectId: "twitter-49e47",
+    storageBucket: "twitter-49e47.appspot.com",
+    messagingSenderId: "132657518923"
   };
   firebase.initializeApp(config);

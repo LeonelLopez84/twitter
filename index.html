@@ -12,35 +12,22 @@
 	 	<div class="col-md-12">
 	 		<fieldset>
 	 			<legend>Deja tu mensaje</legend>
-	 			<textarea class="form-control"></textarea><hr>
-	 			<button class="btn btn-success pull-right">Twittear</button>
+	 			<textarea id="tweet" class="form-control"></textarea><hr>
+	 			<button id="twittear" class="btn btn-success pull-right">Twittear</button>
 	 		</fieldset>
 
 	 	</div>
 	 </div>
-	<div class="row">
+	<div id="lista" class="row">
     
-        <div class="timeline-centered">
-
-        <article class="timeline-entry">
-
-            <div class="timeline-entry-inner">
-
-                <div class="timeline-icon bg-success">
-                    <i class="entypo-feather"></i>
-                </div>
-
-                <div class="timeline-label">
-                    <h2><a href="#">Art Ramadani</a> <span>posted a status update</span></h2>
-                    <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but rooms think may.</p>
-                </div>
-            </div>
-
-        </article>
+       <div class="col-md-12">
+       	<ul id="lista">
+       		
+       	</ul>
+       </div>
 
     </div>
-
-	<script src="node_modules/vue/dist/vue.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
 	<script src="public/js/firebase.js"></script>
 	<script src="public/js/app.js"></script>
 </body>
